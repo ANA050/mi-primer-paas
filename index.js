@@ -1,4 +1,4 @@
-const express = require('express');
+const express = require('express ');
 const app = express ();
 const port = process.env.PORT || 3000;
 app.get('/', (req , res) => {
@@ -16,8 +16,7 @@ h1 { color: #0056 b3; }
 -radius: 10px; display: inline -block; box -shadow: 0
 px 4px 15px rgba (0 ,0 ,0 ,0.1); }
 </style >
-</head >
-<body >
+</head ><body >
 <div class =" contenedor ">
 <h1 >! Hola Nube! Este es mi primer PaaS </h1 >
 <p>Si ves esto , tu despliegue en <strong >Render </
